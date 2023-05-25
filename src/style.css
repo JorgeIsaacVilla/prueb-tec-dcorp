@@ -227,7 +227,19 @@ font-size: var(--let2);
     background-repeat: no-repeat;
     background-position: center;
 
+    transition: 5s;
 }
+.frame:hover{
+    transform: rotate(360deg);
+}
+.avatarImage{
+    position: relative;
+} 
+
+.avatarImage:hover .frame{
+    transform: rotate(360deg);
+}
+
 .avatarImage img {
   margin: auto;
   margin-top: 3.5vh;
@@ -235,6 +247,12 @@ font-size: var(--let2);
   border-radius: 100%;
   width:15vh;
   height:15vh;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 .infoAvatar{
     width: 21vh;

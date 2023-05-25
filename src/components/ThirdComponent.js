@@ -92,10 +92,8 @@ useEffect(() => {
                     <h3> {per.name} </h3>
                     </div>
                     <div className="avatarImage">
-                      <div className='frame'>
+                      <div className='frame'></div>
                       <img src={`${per.thumbnail.path}.${per.thumbnail.extension}`} />
-                      </div>
-                      
                     </div>
                     <div className="infoAvatar">
                       <p>Comics:</p>
