@@ -176,17 +176,89 @@ font-size: var(--let2);
     background-color:var(--cW);
     transition: 5s;
   }
-  
   .customProgress::-webkit-progress-value {
     background: linear-gradient(180deg, #31969D 0%, #65E6F4 31.77%, #24AEBD 66.15%, #1299A8 98.96%);
     border: 1px solid #111111;
   }
+/*secondComponent (end)*/
 
+/*ThirdComponent (start)*/
+.tarjetPersonaje{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    position:absolute;
+    z-Index:10;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.dataAvatar-tarjet{
+    width: 80vh;
+    height: 80vh;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-image: url("./assets/img/Fondo\ niveles.png");
+    background-size: 100% 100%;
+    border: 0.5px solid #3C3C41;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 16px;
+
+    box-shadow: 0px 0px 4px #FFA942, 0px 0px 4px rgba(255, 169, 66, 0.25), 0px 0px 7px rgba(255, 169, 66, 0.25);
+
+}
+
+.dataAvatar-tarjet img{
+    border-radius: 100%;
+    width:32vh;
+    height:32vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.dataAvatar-tarjet h2{
+font-size: var(--let2);
+color: var(--cd);
+}
+.dataAvatar-tarjet p{
+    color: var(--cW);
+    font-size: var(--let1-6);
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 15px;
+    }
+    .dataAvatar-tarjet a{
+        color: var(--cd);
+        font-size: var(--let1-6);
+        width: 90%;
+        margin: auto;
+        margin-top: 15px;
+        }
+.appear{
+    display: none;
+}
+.close{
+    width: 35vh;
+    height: 5vh;
+    color: var(--cd);    
+        background: #1E2328;
+    box-shadow: 0px 0px 4px #FFA942, 0px 0px 4px rgba(255, 169, 66, 0.25), 0px 0px 7px rgba(255, 169, 66, 0.25);
+    transform: skew(-10deg);
+
+    margin-top: -15%;
+}
 .mySwiper{
     width: 95%;
     height:55.5vh;
     color:var(--cW);
-    cursor: pointer;
 }
 .tarjetSwiper{
     margin-top: 20px;
@@ -201,6 +273,7 @@ font-size: var(--let2);
     border: 0.5px solid #3C3C41;
     margin: auto;
     border-radius: 10px;
+    cursor: pointer;
 }
 .nameAvatar{
     width: 80%;
