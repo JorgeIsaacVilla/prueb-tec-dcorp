@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/prueb-tec-dcorp/static/css/main.ad324e3e.css",
-    "main.js": "/prueb-tec-dcorp/static/js/main.7dd0fe15.js",
+    "main.css": "/prueb-tec-dcorp/static/css/main.c18b880e.css",
+    "main.js": "/prueb-tec-dcorp/static/js/main.452e1c32.js",
     "static/js/787.9c4e632b.chunk.js": "/prueb-tec-dcorp/static/js/787.9c4e632b.chunk.js",
     "static/media/video2.mp4": "/prueb-tec-dcorp/static/media/video2.f5246d5d735bac55ccf4.mp4",
     "static/media/Fondo.png": "/prueb-tec-dcorp/static/media/Fondo.f61d343fd580bbf7fe06.png",
@@ -13,12 +13,12 @@
     "index.html": "/prueb-tec-dcorp/index.html",
     "static/media/Notificación 20.svg": "/prueb-tec-dcorp/static/media/Notificación 20.4213576773524087f5f4.svg",
     "static/media/Notificacion0.svg": "/prueb-tec-dcorp/static/media/Notificacion0.59acb038cb84c11f0856.svg",
-    "main.ad324e3e.css.map": "/prueb-tec-dcorp/static/css/main.ad324e3e.css.map",
-    "main.7dd0fe15.js.map": "/prueb-tec-dcorp/static/js/main.7dd0fe15.js.map",
+    "main.c18b880e.css.map": "/prueb-tec-dcorp/static/css/main.c18b880e.css.map",
+    "main.452e1c32.js.map": "/prueb-tec-dcorp/static/js/main.452e1c32.js.map",
     "787.9c4e632b.chunk.js.map": "/prueb-tec-dcorp/static/js/787.9c4e632b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad324e3e.css",
-    "static/js/main.7dd0fe15.js"
+    "static/css/main.c18b880e.css",
+    "static/js/main.452e1c32.js"
   ]
 }
