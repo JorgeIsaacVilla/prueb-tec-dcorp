@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/prueb-tec-dcorp/static/css/main.21d838ae.css",
-    "main.js": "/prueb-tec-dcorp/static/js/main.142b7601.js",
+    "main.css": "/prueb-tec-dcorp/static/css/main.0b6a013f.css",
+    "main.js": "/prueb-tec-dcorp/static/js/main.067fc0d9.js",
     "static/js/787.9c4e632b.chunk.js": "/prueb-tec-dcorp/static/js/787.9c4e632b.chunk.js",
     "static/media/estacion.gltf": "/prueb-tec-dcorp/static/media/estacion.b34b0552d9de68930595.gltf",
     "static/media/video2.mp4": "/prueb-tec-dcorp/static/media/video2.f5246d5d735bac55ccf4.mp4",
     "static/media/Fondo.png": "/prueb-tec-dcorp/static/media/Fondo.f61d343fd580bbf7fe06.png",
+    "static/media/Mark42.gltf": "/prueb-tec-dcorp/static/media/Mark42.375a1a5cfe1fdb19a43b.gltf",
     "static/media/Fondo niveles.png": "/prueb-tec-dcorp/static/media/Fondo niveles.46c88d41bb4a6491b0de.png",
+    "static/media/mi_imagen.jpg": "/prueb-tec-dcorp/static/media/mi_imagen.ca21ec4866f053f28c85.jpg",
     "static/media/Círculonivel1.png": "/prueb-tec-dcorp/static/media/Círculonivel1.77f9955a86e6f748e8f4.png",
     "static/media/Marvel_Studios_Logo_normal_2016.webp": "/prueb-tec-dcorp/static/media/Marvel_Studios_Logo_normal_2016.1702f9dd688d064fa8fe.webp",
     "static/media/Ajustes 20.svg": "/prueb-tec-dcorp/static/media/Ajustes 20.2a1b913e89f7ffbdc668.svg",
@@ -14,12 +16,12 @@
     "index.html": "/prueb-tec-dcorp/index.html",
     "static/media/Notificación 20.svg": "/prueb-tec-dcorp/static/media/Notificación 20.4213576773524087f5f4.svg",
     "static/media/Notificacion0.svg": "/prueb-tec-dcorp/static/media/Notificacion0.59acb038cb84c11f0856.svg",
-    "main.21d838ae.css.map": "/prueb-tec-dcorp/static/css/main.21d838ae.css.map",
-    "main.142b7601.js.map": "/prueb-tec-dcorp/static/js/main.142b7601.js.map",
+    "main.0b6a013f.css.map": "/prueb-tec-dcorp/static/css/main.0b6a013f.css.map",
+    "main.067fc0d9.js.map": "/prueb-tec-dcorp/static/js/main.067fc0d9.js.map",
     "787.9c4e632b.chunk.js.map": "/prueb-tec-dcorp/static/js/787.9c4e632b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21d838ae.css",
-    "static/js/main.142b7601.js"
+    "static/css/main.0b6a013f.css",
+    "static/js/main.067fc0d9.js"
   ]
 }
