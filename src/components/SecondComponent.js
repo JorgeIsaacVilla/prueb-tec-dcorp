@@ -16,7 +16,7 @@ export const SecondComponent = () => {
         
       </div>
       <div className="ContainerImage" style={{color:"white"}}>
-        <video src={video} controls></video>
+        <video src={video} controls autoPlay></video>
       </div>
       <div className="ContainerImage" style={{marginRight:"62px", display: 'flex', justifyContent: 'center' }}><img src='https://cloudfront-us-east-1.images.arcpublishing.com/copesa/VLIY2K7RARHTZPWKV6XCAI6RDE.jpg' /></div>
     </div>

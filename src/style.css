@@ -52,7 +52,7 @@
 .selected {
     color: var(--cd) !important;
     background: 
-      url("../src/assets/img/Vector.png") no-repeat 50% 6px,
+      url("../src/assets/img/Vector.png") no-repeat 50% 9.3px,
       linear-gradient(180deg, #231F20 0%, rgba(34, 34, 34, 0) 100%);
 }
 
