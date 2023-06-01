@@ -211,11 +211,9 @@ font-size: var(--let2);
     margin: auto;
     margin-top: 5%;
     border-radius: 16px;
-
     box-shadow: 0px 0px 4px #FFA942, 0px 0px 4px rgba(255, 169, 66, 0.25), 0px 0px 7px rgba(255, 169, 66, 0.25);
 
 }
-
 .dataAvatar-tarjet img{
     border-radius: 100%;
     width:32vh;
@@ -356,3 +354,107 @@ color: var(--cd);
     color:#C89B3C;
 }
 /*ThirdComponent (end)*/
+
+/*Component3D (start)*/
+.description-project{
+    z-index: 10;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    color: #F0E6D2;
+    text-align: left;
+    padding: 2vh;
+    width: 23%;
+    background: rgba(0, 0, 0, 0.527);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 5px outset rgba(255, 255, 255, 0.3);
+}
+.description-project h2{
+    margin-top: 1.3vh;
+    font-size: 2.5vh;
+}
+.description-project h3{
+    margin-top: 1.3vh;
+    width: 100%;
+    font-size: 2.3vh;
+}
+.description-project h1 {
+    font-size: 3vh;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0.8vh;
+    border: none;
+    color: rgba(255,255,255,1);
+    text-decoration: normal;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px rgba(245, 222, 179, 0.548) , 0 0 70px rgba(245, 222, 179, 0.384) , 0 0 80px rgba(245, 222, 179, 0.575) , 0 0 100px rgba(245, 222, 179, 0.534);
+    text-align: left;
+  }
+.visor-top{
+    position: absolute;
+    background: black;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+}
+.visor-top img{
+    height: 20vh;
+}
+.canva-estation-nave{
+    width: 100%;
+    height: 92vh;
+    margin: auto;
+}
+.visor-bottom{
+    position: absolute;
+    top:80%;
+    right: 43%;
+    background: black;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    border-radius: 100%;
+    border: outset;
+    cursor: pointer;
+    transition: 1s;
+    border-color: white;
+}
+.visor-bottom:hover{
+    border-color: white;
+    box-shadow: 0 0 10px  white, 0 0 40px  white, 0 0 80px  white;
+}
+.photo{
+    border: outset;
+    border-color: white;
+    width: 25vh;
+    height: 25vh;
+    background-image: url(../src/assets/img/mi_imagen.jpg);
+    background-size: 100%;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mark-42{
+    z-index: 11;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    bottom: 0;
+    right: 0;
+    width: 60%;
+    height: 60vh;
+    background-image: url("https://i.gifer.com/NUxj.gif");
+    background-size: 100% 100%;
+    border: 5px outset rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    cursor: pointer;
+}
+/*Component3D (start)*/
