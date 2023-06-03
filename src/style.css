@@ -10,7 +10,9 @@
     --heightHeader:8vh;
     --margin:62px;
 }
-
+.phone{
+    display: none !important;
+}
 /*firstComponent (start)*/
 .firstComponentContainer{
     display: flex;
@@ -37,7 +39,6 @@
 .firstComponentContainerLeft ul{
     display: flex;
     list-style: none;
-    margin-top: 0px;
     height: var(--heightHeader);
 }
 .firstComponentContainerLeft ul li{
@@ -306,11 +307,9 @@ color: var(--cd);
 .avatarImage{
     position: relative;
 } 
-
 .avatarImage:hover .frame{
     transform: rotate(360deg);
 }
-
 .avatarImage img {
   margin: auto;
   margin-top: 3.5vh;
@@ -458,3 +457,99 @@ color: var(--cd);
     cursor: pointer;
 }
 /*Component3D (start)*/
+
+/*technical-support (start)
+.technical-support{
+    z-index: 10;
+    width: 50%;
+    height: 50vh;
+    background-color: red;
+}*/
+/*technical-support (end)*/
+
+@media (max-width: 480px) {
+
+    /*firstComponent (start)*/
+    .logoMarvel{
+        margin-left: 1vh;
+        width: 10vh;
+        height: 10vh;
+        background-image:url("https://cdn.iconscout.com/icon/free/png-256/free-marvel-282124.png?f=webp");
+    }
+    .firstComponentContainerLeft ul{
+        padding-left: 3vh;
+     }
+     .elementsContainerRight{
+         margin-left: 1.3vh;
+     }
+     .firstComponentContainerRight{
+        padding-right:0.8vh;
+    }
+    /*firstComponent (end)*/
+
+    /*Component3D (start)*/
+    .mark-42{
+        width: 100%;
+        height: 80vh;
+        top:1%;
+        left:0;
+        background-image: url("https://i.pinimg.com/564x/0f/75/b5/0f75b5b3772f0de61757135d3803923f.jpg");
+    }
+       .description-project{
+        width: 90%;
+        background: rgba(0, 0, 0, 0);
+        border-radius: 16px;
+        border: 1px outset rgba(255, 255, 255, 0.3);
+    }
+    .visor-bottom{
+        top:85%;
+        right: 28%;
+        height: 15vh;
+    }
+    /*Component3D (end)*/
+
+    /*secondComponent (start)*/
+    .secondComponentContainer{
+        display: block;
+    }
+    .ContainerProgress{
+        width: 100%;
+        margin-left: 0;
+    }
+    .ContainerImage{
+        width: 100%;
+    }
+    /*secondComponent (end)*/
+    .mySwiper{
+        width: 80%;
+        height:55.5vh;
+    }
+.desk{
+    display: none !important;
+}
+.phone{
+    display: block !important;
+    width: 100%;
+    background: #1E2328;
+}
+
+.tarjetPersonaje{
+    width: 100%;
+    position: fixed;
+}
+.dataAvatar-tarjet{
+    width:90%;
+    height: 80vh;
+   }
+.dataAvatar-tarjet img{
+    width:18vh;
+    height:18vh;
+}
+.dataAvatar-tarjet a{
+    color: var(--cd);
+    font-size: var(--let1-6);
+    width: 75%; 
+    margin: auto;
+    }
+    /*ThirdComponent (End)*/
+  }

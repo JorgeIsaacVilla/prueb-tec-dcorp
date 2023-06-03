@@ -63,7 +63,7 @@ const Component3D = () => {
           </Suspense>
           <OrbitControls
           autoRotate={true}
-          autoRotateSpeed={5}
+          autoRotateSpeed={0.5}
           />
       </Canvas>
       <button onClick={desappearCanva3d} className='close'>CERRAR</button>

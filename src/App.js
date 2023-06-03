@@ -49,6 +49,18 @@ function App() {
           </>
         ) : null}
       </div>
+
+      {/*
+      <div>
+        <div className='technical-support'>
+          <div></div>  {/*aca ira un width 100% con un height de 2vh en el total superior derecho una crus que simulará boton de cerrar.
+          <h3>SOPORTE TÉCNICO.</h3>
+          <p>Si tienes consultas sobre el proceso de desarrollo de esta web, puedes contactar con el soporte técnico por medio del siguiente enlace.</p>
+          <a href='https://www.linkedin.com/in/jorge-villa-l%C3%B3pez-742647b5/'>https://www.linkedin.com/in/jorge-villa-l%C3%B3pez-742647b5/</a>
+          <p>O tambien puedes visualizar su experiencia. Haz click en este enlace:</p>
+          <a href='https://jorgeisaacvilla.github.io/my_portafolio/'>https://jorgeisaacvilla.github.io/my_portafolio/</a>
+        </div>
+      </div>*/} 
     </div>
   );
 }

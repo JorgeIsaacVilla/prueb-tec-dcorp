@@ -62,7 +62,7 @@ export const ThirdComponent = () => {
           <img src={`${selectedPersonaje.thumbnail.path}.${selectedPersonaje.thumbnail.extension}`} alt={selectedPersonaje.name} />
           )};
         <p>{selectedPersonaje ? selectedPersonaje.description : "descripción del personaje"}</p>
-        <a href={selectedPersonaje ? selectedPersonaje.resourceURI : "descripción del personaje"}>Más información:{selectedPersonaje ? selectedPersonaje.resourceURI : " URL del personaje"}</a>
+        <a href={selectedPersonaje ? selectedPersonaje.resourceURI : "descripción del personaje"}>Más información: {selectedPersonaje ? selectedPersonaje.resourceURI : " URL del personaje"}</a>
 
     </div>
       <button onClick={desappearTarjet} className='close'>CERRAR</button>
@@ -77,7 +77,7 @@ export const ThirdComponent = () => {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper"
+        className="mySwiper desk"
       >
         {personajes.map((per) => (
           <SwiperSlide key={per.id} className="tarjetSwiper">
@@ -101,6 +101,40 @@ export const ThirdComponent = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+
+      <Swiper
+        slidesPerView={1}
+        centeredSlides={true}
+        spaceBetween={30}
+        pagination={{
+          type: "fraction",
+        }}
+        navigation={true}
+        modules={[Navigation]}
+        className="mySwiper phone"
+      >
+        {personajes.map((per) => (
+          <SwiperSlide key={per.id} className="tarjetSwiper">
+            <div className="dataAvatar" onClick={() => handleAvatarClick(per)}>
+              <div className="nameAvatar">
+                <h3>{per.name}</h3>
+              </div>
+              <div className="avatarImage">
+                <div className='frame'></div>
+                <img src={`${per.thumbnail.path}.${per.thumbnail.extension}`} alt={per.name} />
+              </div>
+              <div className="infoAvatar">
+                <p>Comics:</p>
+                <h3>{per.series.available}</h3>
+              </div>
+              <div className="infoAvatar">
+                <p>Películas:</p>
+                <h3>{per.stories.available}</h3>
+              </div>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>       
     </>
   );
 };
